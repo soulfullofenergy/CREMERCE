@@ -10,6 +10,10 @@ Inhalt
 - dist/icons/: Icons für iPhone, iPad und andere Geräte
 - docs/: Importvorlage und direkt nutzbare Beispieldaten
 
+Beim Hochladen bitte die vorhandenen Dateien auf dem Webspace durch den gesamten
+neuen Inhalt von "dist" ersetzen. Einzelne Icon-Dateien allein reichen nicht,
+weil HTML, Manifest und Offline-Cache gemeinsam aktualisiert wurden.
+
 Wichtig
 -------
 Eine PWA benötigt HTTPS. Das direkte Öffnen der index.html aus dem ZIP-Ordner
@@ -18,10 +22,33 @@ reicht für Service Worker und iOS-Installation nicht. Den Inhalt des Ordners
 
 Installation auf iPhone oder iPad
 ---------------------------------
-1. Die veröffentlichte CREMERCE-Adresse in Safari öffnen.
-2. Auf "Teilen" tippen.
-3. "Zum Home-Bildschirm" auswählen.
-4. Mit "Hinzufügen" bestätigen.
+1. Falls CREMERCE bereits auf dem Home-Bildschirm liegt: das alte Symbol zuerst
+   vom Home-Bildschirm entfernen. iOS speichert Home-Screen-Icons sehr lange.
+2. Den aktualisierten Inhalt des Ordners "dist" vollständig veröffentlichen.
+3. Die veröffentlichte CREMERCE-Adresse in Safari öffnen und einmal neu laden.
+4. Auf "Teilen" tippen.
+5. "Zum Home-Bildschirm" auswählen.
+6. Mit "Hinzufügen" bestätigen.
+
+Falls weiterhin das alte Symbol erscheint
+------------------------------------------
+- Prüfen, ob wirklich die neue Datei icons/apple-touch-icon-v12-180.png unter
+  der veröffentlichten Adresse erreichbar ist.
+- Den alten Home-Bildschirm-Eintrag erneut löschen, Safari schließen, die Seite
+  wieder in Safari öffnen und neu hinzufügen.
+- Notfalls nur die Websitedaten der veröffentlichten Domain in den iOS-
+  Einstellungen löschen und anschließend erneut hinzufügen.
+
+Enthaltene Apple-Icons
+----------------------
+- 120 x 120 px: ältere/kleinere iPhones
+- 152 x 152 px: iPad
+- 167 x 167 px: iPad Pro
+- 180 x 180 px: aktuelle iPhones
+
+Alle Apple-Icons sind quadratisch, vollflächig und ohne transparente Ecken.
+Die Versionskennung "v12" verhindert, dass Safari die frühere Icon-Datei
+weiterverwendet. Das iPhone rundet die Ecken beim Hinzufügen automatisch ab.
 
 Datenübernahme
 --------------

@@ -32,7 +32,7 @@ Installation auf iPhone oder iPad
 
 Falls weiterhin das alte Symbol erscheint
 ------------------------------------------
-- Prüfen, ob wirklich die neue Datei icons/apple-touch-icon-v13-180.png unter
+- Prüfen, ob wirklich die neue Datei icons/apple-touch-icon-v14-180.png unter
   der veröffentlichten Adresse erreichbar ist.
 - Den alten Home-Bildschirm-Eintrag erneut löschen, Safari schließen, die Seite
   wieder in Safari öffnen und neu hinzufügen.
@@ -47,14 +47,14 @@ Enthaltene Apple-Icons
 - 180 x 180 px: aktuelle iPhones
 
 Alle Apple-Icons sind quadratisch, vollflächig und ohne transparente Ecken.
-Die Versionskennung "v13" verhindert, dass Safari die frühere Icon-Datei
+Die Versionskennung "v14" verhindert, dass Safari die frühere Icon-Datei
 weiterverwendet. Das iPhone rundet die Ecken beim Hinzufügen automatisch ab.
 
 Browser und Desktop
 -------------------
 - favicon.ico enthält die Standardgrößen für Browser und Windows.
 - PNG-Varianten in 16, 32 und 48 px versorgen Browser-Tabs und Lesezeichen.
-- desktop-icon-v13-256.png ist für größere Desktop-Darstellungen enthalten.
+- cremerce-logo-v14-256.png ist für größere Desktop-Darstellungen enthalten.
 - Nach dem Veröffentlichen alte Browser-Lesezeichen oder Desktop-Verknüpfungen
   einmal löschen und neu anlegen, damit deren alter Icon-Cache ersetzt wird.
 

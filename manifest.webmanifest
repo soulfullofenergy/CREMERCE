@@ -1,0 +1,20 @@
+{
+  "id": "./?app=cremerce-final-v15",
+  "name": "CREMERCE – Creator, Content & TikTok Shop Management",
+  "short_name": "CREMERCE",
+  "description": "Creator-, Content- und TikTok-Shop-Arbeitszentrale.",
+  "lang": "de-DE",
+  "start_url": "./?app=cremerce-final-v15",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#f4f5f8",
+  "theme_color": "#7357ff",
+  "categories": ["business", "productivity"],
+  "icons": [
+    {"src":"icons/cremerce-final-v15-192.png","sizes":"192x192","type":"image/png","purpose":"any"},
+    {"src":"icons/cremerce-final-v15-512.png","sizes":"512x512","type":"image/png","purpose":"any"},
+    {"src":"icons/cremerce-final-v15-maskable-512.png","sizes":"512x512","type":"image/png","purpose":"maskable"}
+  ]
+}
